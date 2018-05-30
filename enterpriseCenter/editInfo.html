@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>四川智造人才网-基本信息</title>
+		<meta name="Keywords" content="四川智造人才网" />
+		<meta name="Description" content="四川智造人才网" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/common/site.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/layer.css" />
+		<link rel="stylesheet" type="text/css" href="../css/enter-baseinfo-edit.css" />
+	</head>
+
+	<body>
+		<div class="ep-container">
+			<form id="uploadForm" enctype="multipart/form-data">
+				<div class="ep-tops clearfix">
+					<div class="lefts">
+						<ul>
+							<li>
+								<div class="control-label">
+									<label for="name">
+										<span>*</span>
+										企业名称
+									</label>
+								</div>
+								<input type="text" required="required" maxlength="25" class="form-control form-full enter-name" name="Name" id="name" value="" />
+							</li>
+							<li>
+								<div class="control-label">
+									<label for="nature">
+										<span>*</span> 性质
+									</label>
+								</div>
+								<select class="form-control nature" name="Nature" id="nature">
+									<option value="0">国有企业</option>
+									<option value="1">集体企业</option>
+									<option value="2">联营企业</option>
+									<option value="3">中外合作企业</option>
+									<option value="4">中外合资企业</option>
+									<option value="5">外商独资企业</option>
+									<option value="6">私营企业</option>
+								</select>
+								<label class="wrap-label" for="size">
+									<span>*</span> 规模
+								</label>
+								<select class="form-control" name="Scale" id="scale">
+									<option value="1">0-50</option>
+									<option value="2">51-99</option>
+									<option value="3">100-200</option>
+									<option value="4">201-499</option>
+									<option value="5">500-999</option>
+									<option value="6">1000+</option>
+								</select>
+							</li>
+							<li>
+								<div class="control-label">
+									<label for="address">
+										<span>*</span> 企业地址
+									</label>
+								</div>
+								<input type="text" class="form-control form-full" name="Address" id="Address" value="" />
+							</li>
+
+						</ul>
+					</div>
+					<div class="rights">
+						<div class="eptr-images" id="IconUrl">
+							<img src="../img/defaut.png" class="imgSrc" id="AvatarUrl"/>
+						</div>
+						<div class="eptr-upload">
+							<button type="button"  title="点击上传图片"  class="imgUpload" id="img-upLoad">上传图片</button>
+							<input id="fileUpload" type="file" style="display: none;" name="imgfile" />
+						</div>
+					</div>
+				</div>
+				<div class="ep-bots">
+					<div class="form-div clearfix">
+						<div class="control-label">
+							<label for="intro">							
+							<span>*</span> 
+							企业介绍
+						</label>
+						</div>
+						<div class="form-control">
+							<textarea id="intro" class="introduction"  name="Introduction" onkeyup="wordsdDal();"></textarea>
+						</div>
+					</div>
+
+					<div class="text-numbers">
+						<p>文字  （<span id="textCount">0</span>/500字）</p>
+					</div>
+					<div class="epb-btns">
+						<button type="button" class="btn-cancel">取 消</button>
+						<button type="button" class="btn-sure">确 定</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<script type="text/javascript" src="../js/common/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="../js/common/url.js"></script>
+		<script type="text/javascript" src="../js/common/public.js"></script>
+		<script type="text/javascript" src="../js/common/base64.js"></script>
+		<script type="text/javascript" src="../js/common/common.js"></script>
+		<script type="text/javascript" src="../js/common/layer.js"></script>
+		<script type="text/javascript" src="../js/common/fom.js"></script>
+		<script type="text/javascript" src="../js/enter-editInfo.js"></script>
+	</body>
+
+</html>

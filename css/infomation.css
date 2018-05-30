@@ -1,0 +1,79 @@
+.info-content {
+	padding: 30px 0 ;
+}
+
+.info-h3 {
+	height: 62px;
+	overflow: hidden;
+	background: #163e8c;
+}
+
+.info-h3 li {
+	float: left;
+	width: 150px;
+}
+
+.info-h3 li.active {
+	background: #1875f0;
+}
+
+.info-h3 a {
+	font: 500 16px/62px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+.info-h3 a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.info-lists {
+	padding: 30px 0;
+}
+.pagination-container {
+    padding: 0 100px;
+   
+}
+
+.info-lists ul li {
+	height: 80px;
+	border-bottom: solid 1px #d6d6d6;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.info-lists ul li h4 {
+	height: 20px;
+	font: 600 20px/20px "微软雅黑";
+	color: #010000;
+}
+
+.info-lists ul li h4 span {
+	font: 500 14px/20px "微软雅黑";
+	color: #8c8c8c;
+	float: right;
+}
+
+.info-lists ul li p {
+	height: 50px;
+	font: 500 14px/25px "微软雅黑";
+	color: #8c8c8c;
+	overflow: hidden;
+	margin-top: 10px;
+	text-indent: 2em;
+}
+
+.info-lists ul li p a {
+	color: #1875f0;
+}
+
+.pagination-container {
+	text-align: right;
+}
+
+.info-lists ul li a:hover {
+    color: #1875F0;
+}

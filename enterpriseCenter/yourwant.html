@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>四川智造人才网-需求发布</title>
+		<meta name="Keywords" content="四川智造人才网" />
+		<meta name="Description" content="四川智造人才网" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/common/site.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/common-talbe.css" />
+		<link rel="stylesheet" type="text/css" href="../css/enter-yourwant.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/layer.css" />
+	</head>
+
+	<body>
+		<form id="uploadForm">
+			<div class="yw-container">
+				<div class="form-group clearfix">
+					<div class="control-label">
+						<label for="name">
+							<span>*</span> 名称
+						</label>
+					</div>
+					<div class="form-group-multipart">
+						<div class="more-item">
+							<label class="wrap-label" for="">
+								<span>*</span> 类型
+							</label>
+							<select name="DemandType" class="form-control" id="publishSelect">
+								<option value="1">人才需求</option>
+								<option value="2">项目需求</option>
+							</select>
+						</div>
+						<input type="text" class="form-control form-full" name="Name" id="wantName" value="" />
+					</div>
+				</div>
+				<div class="form-group clearfix">
+					<div class="control-label">
+						<label for="name">
+							<span>*</span> 行业
+						</label>
+					</div>
+					<div class="form-group-multipart form-group-tags" id="industry">
+
+					</div>
+				</div>
+
+				<div class="form-group clearfix">
+					<div class="control-label">
+						<label for="name">
+							<span>*</span> 工作地点
+						</label>
+					</div>
+					<div class="form-group-multipart clearfix">
+						<select id="Province" name="" class="form-control form-auto">
+							<option selected="selected" value="-1">请选择</option>
+						</select>
+						<select id="City" class="form-control  form-auto">
+							<option selected="selected" value="-1">请选择</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group clearfix ">
+					<div class="other-twos" style="margin-left: 20px;">
+						<div class="more-item">
+							<label class="wrap-label talents-select " for="">
+								<span>*</span> 月薪(K)
+							</label>
+							<label class="wrap-label project-select" for="">
+								<span>*</span> 金额(w)
+							</label>
+							<input type="text" class="form-control margin-lef" name="Amount" id="" value="" />
+						</div>
+						<div class="more-item">
+							<label class="wrap-label talents-select" for="">
+								<span>*</span> 数量(人)
+							</label>
+							<label class="wrap-label project-select" for="">
+								<span>*</span> 时间(工作日)
+							</label>
+							<input type="text" class="form-control" name="Quantity" id="" value="" />
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group auto-height clearfix">
+					<div class="control-label">
+						<label for="name">
+							<span>*</span> 需求描述
+						</label>
+					</div>
+					<div class="form-group-multipart not-form-control">
+						<textarea id="intro" name="Description" onkeyup="wordsdDal();"></textarea>
+					</div>
+
+				</div>
+
+				<div class="text-numbers">
+						<p>文字  （<span id="textCount">0</span>/500字）</p>
+				</div>
+
+				<div class="epb-btns">
+					<button type="button" class="btn-cancel">取 消</button>
+					<button type="button" class="btn-sure">确 定</button>
+				</div>
+			</div>
+		</form>
+		<script type="text/javascript" src="../js/common/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="../js/common/common.js"></script>
+		<script type="text/javascript" src="../js/common/layer.js"></script>
+		<script type="text/javascript" src="../js/common/public.js"></script>
+		<script type="text/javascript" src="../js/common/url.js"></script>
+		<script type="text/javascript" src="../js/common/fom.js"></script>
+		<script type="text/javascript" src="../js/enter-yourwant.js"></script>
+	</body>
+
+</html>

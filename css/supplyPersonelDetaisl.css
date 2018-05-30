@@ -1,0 +1,565 @@
+@charset "utf-8";
+.info-h3 {
+	height: 62px;
+	overflow: hidden;
+	background: #163e8c;
+	margin: 20px 0;
+}
+
+.info-h3 li {
+	float: left;
+	width: 150px;
+}
+
+.info-h3 li.active {
+	background: #1875f0;
+}
+
+.info-h3 a {
+	font: 500 16px/62px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+.info-h3 a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.trains-screen {
+	padding-bottom: 30px;
+}
+
+.table-sp td.dt {
+	font-size: 16px;
+	width: 70px;
+	padding: 0;
+	font-weight: 600;
+	vertical-align: top;
+}
+
+.table-sp td {
+	line-height: 55px;
+	text-align: left;
+}
+
+.table-sp td.dd span {
+	display: inline-block;
+	padding: 0 12px;
+	line-height: 28px;
+	cursor: pointer;
+}
+
+.table-sp td.dd span.active {
+	border: solid 2px #1875f0;
+	color: #1875f0;
+	border-radius: 4px;
+	padding: 0 10px;
+}
+
+.sp-bodys {
+	padding: 0px 0;
+	background: #f7f7f7;
+}
+
+.sp-lefts {
+	width: 864px;
+	float: left;
+}
+
+.sp-rights {
+	width: 306px;
+	float: right;
+	min-height: 860px;
+}
+
+.spl-list {
+	padding: 30px 0 0 30px;
+	width: 834px;
+}
+
+*html .spl-list,
+*+html .spl-list {
+	padding-bottom: 30px;
+}
+
+.spl-list li {
+	width: 216px;
+	height: 198px;
+	padding: 15px;
+	float: left;
+	display: inline;
+	margin-right: 30px;
+	border: solid 1px #eaeaea;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+
+.pagination-container {
+	padding: 0 30px;
+	text-align: right;
+}
+
+.spl-list li .spl-image {
+	height: 72px;
+	padding: 10px 0 20px 0;
+	border-bottom: dashed 1px #d6d6d6;
+	text-align: center;
+}
+
+.spl-list li a h4 {
+	margin-top: 30px;
+	height: 16px;
+	font: 600 16px/16px "微软雅黑";
+	color: #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-spacing: normal;
+}
+
+
+/*.spl-list li a:hover h4,
+.spl-list li a:hover p {
+	color: #1875F0;
+}*/
+
+.spl-list li a p {
+	margin-top: 20px;
+	height: 14px;
+	font: 600 14px/14px "微软雅黑";
+	color: #8C8C8C;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-spacing: normal;
+}
+
+.spl-list li p .fr {
+	float: right;
+}
+
+.spr-part {
+	background: #fff;
+	padding: 15px 25px;
+	margin-bottom: 25px;
+}
+
+.spr-part h3 {
+	height: 24px;
+	border-bottom: solid 1px #d6d6d6;
+	padding: 17px 0;
+	overflow: hidden;
+}
+
+.spr-part span {
+	display: block;
+	border-left: solid 4px #1875f0;
+	padding-left: 11px;
+	font: 600 20px/20px "微软雅黑";
+	height: 24px;
+	color: #000;
+}
+
+.spr-lists li {
+	height: 72px;
+	padding: 18px 0;
+	border-bottom: dashed 1px #d6d6d6;
+	overflow: hidden;
+}
+
+*html .spr-lists li,
+*+html .spr-lists li {
+	display: inline;
+}
+
+.spr-lists .spr-image {
+	width: 72px;
+	height: 72px;
+	float: left;
+	overflow: hidden;
+}
+
+.spr-lists .spr-image img {
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+}
+
+.spr-lists .spr-text {
+	width: 170px;
+	height: 72px;
+	float: right;
+	overflow: hidden;
+}
+
+.spr-lists a .spr-text .fr {
+	float: right;
+	font-style: normal;
+	color: #8C8C8C;
+}
+
+.spr-lists a .spr-text h4 {
+	height: 32px;
+	font: 600 14px/32px "微软雅黑";
+	color: #010101;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.spr-lists a .spr-text .sprt-tags {
+	height: 30px;
+	margin-top: 9px;
+	overflow: hidden;
+}
+
+.sprt-tags span {
+	height: 28px;
+	line-height: 28px;
+	padding: 0 5px;
+	display: inline-block;
+	border: solid 1px #ddd;
+	font: 500 12px/28px "微软雅黑";
+	color: #8C8C8C;
+	margin-right: 7px;
+}
+
+.spr-lists a dl {
+	height: 50px;
+	border-bottom: dashed 1px #d6d6d6;
+	padding: 18px 0;
+}
+
+.spr-lists a dl dt {
+	font: 600 16px/16px "微软雅黑";
+	height: 16px;
+	color: #000;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.spr-lists a dl dd {
+	margin-top: 14px;
+	height: 20px;
+	line-height: 20px;
+	color: #8c8c8c;
+}
+
+.spr-lists a dl dd b {
+	background: url(../img/zz_24.png) no-repeat center center;
+	padding: 11px 12px;
+}
+
+.spr-lists a dl dt i {
+	float: right;
+	color: #8c8c8c;
+	font-size: 14px;
+	font-style: normal;
+}
+
+
+/*详情*/
+
+.trd-part-left {
+	float: left;
+	overflow: hidden;
+	width: 160px;
+	height: 180px;
+	border-radius: 2px;
+}
+
+.trd-part-left img {
+	width: 160px;
+	height: 180px;
+	background: #fff url(../img/zz_39.png) no-repeat center center;
+}
+
+.trd-part-right {
+	float: right;
+	width: 630px;
+	overflow: hidden;
+	padding-top: 12px;
+}
+
+.trd-part {
+	background: #fff;
+	padding: 20px;
+	padding-top: 33px;
+	margin-bottom: 20px;
+	min-height: 190px;
+}
+
+.trd-part-new {
+	height: auto;
+}
+
+.trd-position {
+	padding: 0 0 22px 0;
+}
+
+.header-company {
+	padding: 22px 0;
+	background: #F7F7F7;
+}
+
+.trd-part-right h4 {
+	height: 40px;
+	font: 600 20px/40px "微软雅黑";
+	color: #000;
+	display: inline;
+}
+
+.company-introduce p,
+.company-introduce span,
+.company-introduce-basic p,
+.company-introduce-basic span {
+	display: inline;
+}
+
+.company-introduce,
+.company-introduce-basic {
+	height: 25px;
+}
+
+.company-introduce p,
+.company-introduce-basic p {
+	font: 500 14px/25px "微软雅黑";
+	color: #8c8c8c;
+}
+
+.company-introduce-basic {
+	color: #000;
+	padding-right: 26px;
+}
+
+.company-introduce span {
+	color: #000;
+	border-right: 2px solid #ddd;
+	padding-right: 26px;
+	padding-left: 6px;
+}
+
+.company-introduce span.last {
+	border-right: none;
+}
+
+.margin-left-new {
+	margin-left: 90px;
+}
+
+.margin-left {
+	margin-left: 20px;
+}
+
+.company-introduce-content {
+	height: 50px;
+	font-family: "微软雅黑";
+	color: #8c8c8c
+}
+
+.attention {
+	border-radius: 4px;
+	width: 100px;
+	height: 40px;
+	color: #000;
+	font-size: 18px;
+	cursor: pointer;
+	margin-right: 24px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.collection {
+	border-radius: 4px;
+	width: 100px;
+	height: 40px;
+	color: #000;
+	background: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	border: 1px solid #ddd;
+}
+
+.btn-div {
+	text-align: right;
+}
+
+.identify-span {
+	width: 100px;
+	height: 37px;
+	display: inline-block;
+	border: 3px solid #F10417;
+	line-height: 36px;
+	border-radius: 8px;
+	color: #F10417;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.identify-done {
+	color: green;
+	border: 3px solid green;
+}
+
+.identify-doing {
+	color: yellow;
+	border: 3px solid yellow;
+}
+
+.identify-no {
+	color: #F10417;
+	border: 3px solid #F10417;
+}
+
+.trd-position p {
+	color: #585858;
+	font-size: 12px;
+}
+
+.trd-position a {
+	color: #8c8c8c;
+}
+
+.person-ion h4 {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	border-left: 8px solid #1775F1;
+	padding-left: 10px;
+}
+
+.ion-line {
+	border-bottom: 2px solid #F1F1F1;
+	width: 86%;
+	margin-left: 110px;
+	position: relative;
+	top: -34px;
+	display: inline-block;
+}
+
+.company-need ul li {
+	height: 80px;
+	line-height: 80px;
+	padding-left: 13px;
+}
+
+.company-need ul li:not(:last-child) {
+	border-bottom: 1px dashed #D6D6D6;
+}
+
+.company-need ul li span {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	display: inline-block;
+	color: #8C8C8C;
+	width: 201px;
+}
+
+span.program-name {
+	font-weight: bold;
+	color: #000 !important;
+}
+
+.company-need button {
+	width: 80px;
+	height: 40px;
+	border-radius: 4px;
+	line-height: 40px;
+}
+
+.company-need button.see-detais {
+	color: #000;
+	background: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+}
+
+.company-need button.now-deliver {
+	color: #fff;
+	background: #1875f0;
+	cursor: pointer;
+}
+
+b.number {
+	font-weight: normal;
+	color: #ff0000;
+}
+
+.talent-workexperience span {
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	font: 500 12px/28px "微软雅黑";
+	color: #8C8C8C;
+	margin-right: 10px;
+	min-width: 98px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+.workexperience-item {
+	margin-left: 20px;
+}
+
+.talent-tag span {
+	height: 30px;
+	line-height: 30px;
+	/* padding: 0 5px; */
+	display: inline-block;
+	border: solid 1px #ddd;
+	font: 500 12px/28px "微软雅黑";
+	color: #8C8C8C;
+	margin-right: 10px;
+	min-width: 98px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.talent-tag {
+	margin-top: 26px;
+	margin-left: 20px;
+}
+
+.talent-introduce {
+	color: #8c8c8c;
+}
+
+.workexperience-content {
+	line-height: 30px;
+	height: auto;
+	margin: 0;
+	text-indent: 0;
+}
+
+.achievemen-item p {
+	display: inline;
+}
+
+.achievemen-content div {
+	color: #8C8C8C;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px
+}
+
+.achievemen-item span {
+	display: inline-block;
+	margin-left: 24px;
+}
+
+.colletion-done {
+	background: #1875f0;
+	color: #fff;
+	border: 1px solid #d6d6d6;
+}

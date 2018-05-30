@@ -1,0 +1,269 @@
+@charset "utf-8";
+.rs-navs {
+	height: 65px;
+	padding: 30px 0;
+}
+
+.rs-navs li {
+	float: left;
+	width: 400px;
+}
+
+.rs-navs li .top-line {
+	height: 26px;
+	position: relative;
+}
+
+.rs-navs li .bot-text {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.login-tops {
+	height: 55px;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 22px 0 23px 0;
+}
+
+.loginfooter {
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.top-line .line-block {
+	height: 6px;
+	top: 11px;
+	background: #dddddd;
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+
+.line-block span {
+	display: block;
+	background: #169bd5;
+	height: 6px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.rs-navs li.active .line-block span {
+	width: 100%;
+}
+
+.top-line .line-number {
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border-radius: 50%;
+	margin-left: -13px;
+	line-height: 26px;
+	text-align: center;
+	background: #dad9d9;
+	color: #625454;
+	font-size: 14px;
+}
+
+.rs-navs li.active .top-line .line-number {
+	background: #169bd5;
+	color: #fff;
+}
+
+.rs-contents {
+	padding: 20px 0 100px 0;
+}
+
+.rs-contents .rs-boxes {
+	width: 450px;
+	margin: 0 auto;
+	padding: 20px;
+	height: 500px;
+}
+
+.rs-boxes ul li {
+	height: 40px;
+	font: 500 16px/40px "微软雅黑";
+	padding: 20px 0;
+	position: relative;
+}
+
+.rs-boxes ul li span.warning {
+	color: #f00;
+	position: absolute;
+	font: 500 14px/14px "微软雅黑";
+	height: 14px;
+	left: 140px;
+	top: 70px;
+	width: auto;
+	/*display: none;*/
+}
+
+.rs-boxes ul li.only-text {
+	text-align: center;
+	font-size: 14px;
+	padding: 15px 0;
+}
+
+.rs-boxes ul li.only-text a {
+	color: #169bd5;
+}
+
+.rs-boxes ul li.only-text span.checked {
+	background: url(../img/check.png) no-repeat center center;
+	padding: 0 9px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.only-text p {
+	display: inline-block;
+}
+
+.rs-boxes ul li.only-text span.active {
+	background: url(../img/checkbox.png) no-repeat center center;
+	padding: 0 9px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.rs-boxes ul li.curpoint {
+	cursor: pointer;
+}
+
+.rs-boxes ul li.only-text button {
+	width: 320px;
+	height: 40px;
+	color: #fff;
+	background: #169bd5;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+.rs-boxes ul li input[type="text"],
+.rs-boxes ul li input[type="password"] {
+	height: 38px;
+	padding: 0 6px;
+	color: #333;
+	font: 500 16px/38px "微软雅黑";
+	border: solid 1px #d3d6f3;
+	border-radius: 4px;
+	width: 100%;
+	background: #fff;
+	outline: none;
+	width: 288px;
+	float: left;
+}
+
+.rs-boxes ul li input.imgCode {
+	width: 178px;
+}
+
+.rs-boxes ul li .span_Code {
+	width: 110px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 4px;
+	overflow: hidden;
+	background: #fdfdfd;
+}
+
+.span_Code img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	background: #fdfdfd;
+}
+
+.rs-boxes ul li label {
+	float: left;
+	width: 140px;
+	height: 40px;
+}
+
+.rs-boxes ul li label b {
+	font-size: 20px;
+	line-height: 40px;
+	position: relative;
+	top: 3px;
+	color: #f00;
+}
+
+.rs-boxes ul li input:focus {
+	border: solid 1px #1875f0;
+	box-shadow: 0 0 3px #1875f0;
+	color: #555;
+}
+
+.rs-contents .panel {
+	display: none;
+}
+
+.nopass input {
+	background: #fff!important;
+	border: 0!important;
+}
+
+.strengthC {
+	display: none;
+	width: 183px !important;
+	margin-left: 140px;
+	font-size: 14px;
+}
+
+.strengthC {
+	color: #999;
+	line-height: 30px;
+	padding-right: 10px;
+}
+
+.strengthC {
+	display: none;
+}
+
+.strengthC .pw_gray {
+	background: #ccc;
+}
+
+.strengthC p {
+	display: inline-block;
+	width: 26px;
+	height: 15px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 8px;
+	line-height: 15px;
+	text-align: center;
+	text-indent: 0px!important;
+}
+
+span.f1 {
+	font-weight: bold;
+}
+
+#password_focus {
+	width: 295px !important;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #999;
+	font-size: 14px
+}
+
+.strengthC .pw-medium {
+	background: #FFD35E;
+}
+
+.strengthC .pw-weak {
+	background: #FF4545;
+}
+
+.strengthC .pw-strong {
+	background: #3ABB1C;
+}

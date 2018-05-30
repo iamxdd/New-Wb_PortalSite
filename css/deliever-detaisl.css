@@ -1,0 +1,70 @@
+.company-need ul li {
+	height: 80px;
+	line-height: 80px;
+	padding-left: 13px;
+	border-bottom: 1px dashed #D6D6D6;
+}
+
+.company-need .liChild {
+	height: auto;
+	padding: 13px;
+	font: 500 14px/25px "微软雅黑";
+	border-bottom: dashed 1px #D6D6D6;
+	border-top: none;
+}
+
+
+/*.company-need ul li:not(:last-child) {
+	
+}*/
+
+.company-need ul li span {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	display: inline-block;
+	color: #8C8C8C;
+	width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+span.program-name {
+	font-weight: bold;
+	color: #000 !important;
+}
+
+.company-need button {
+	 width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    line-height: 40px;
+    position: relative;
+    top: -32px;
+}
+
+.company-need button.see-detais {
+	color: #000;
+	background: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+}
+
+.company-need button i {
+	position: relative;
+	top: -2px;
+}
+
+.company-need button.now-deliver {
+	color: #fff;
+	background: #1875f0;
+	cursor: pointer;
+	border: none;
+}
+
+b.number {
+	font-weight: normal;
+	color: #ff0000;
+}

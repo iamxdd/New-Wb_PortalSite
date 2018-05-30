@@ -1,0 +1,434 @@
+@charset "utf-8";
+
+/*基本信息*/
+
+.basicinfo-bg {
+	background: #F6F6F6;
+}
+
+.bic-parts {
+	background: #fff;
+	margin-bottom: 25px;
+	padding: 20px;
+}
+
+.bicp-top {
+	height: 145px;
+}
+
+.bicp-top .lefts {
+	width: 260px;
+	height: 145px;
+	float: left;
+}
+
+.bicp-top .lefts .inner {
+	border: solid 1px #ededed;
+	border-radius: 4px;
+	height: 143px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 258px;
+}
+
+.bicp-top .lefts .inner img {
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+.bicp-top .rights {
+	height: 145px;
+	float: right;
+	width: 550px;
+}
+
+.rights h4 {
+	height: 50px;
+	font: 600 20px/50px "微软雅黑";
+	color: #000;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.rights p {
+	height: 30px;
+	font: 500 14px/30px "微软雅黑";
+	color: #8c8c8c;
+}
+
+.rights p span {
+	color: #000;
+	padding-right: 20px;
+	border-right: solid 1px #D6D6D6;
+	margin-right: 20px;
+}
+
+.rights p span.last-span {
+	border: none;
+	margin: 0;
+}
+
+.rights p.intro {
+	height: 60px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.rights h4 .button {
+	width: 27px;
+	height: 27px;
+	float: right;
+	background: url(../img/zz_35.png);
+	border: none;
+	cursor: pointer;
+	margin-top: 11px;
+}
+
+.rights h4 button:focus {
+	outline: none;
+}
+
+.person-ion {
+	height: 40px;
+	position: relative;
+}
+
+.person-ion h4 {
+	position: absolute;
+	width: 105px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	background: #fff;
+	color: #000;
+	font-size: 18px;
+	border-left: 8px solid #1775F1;
+	padding-left: 10px;
+	left: 0;
+	top: 0;
+}
+
+.person-ion .ion-line {
+	padding-top: 21px;
+	border-bottom: solid 1px #D6D6D6;
+}
+
+.baseinfo-list {
+	padding: 10px 0 20px 0;
+	min-height: 170px;
+}
+
+.table.re-table.baseinfo-table>tbody>tr>td {
+	height: 40px;
+	padding: 8px;
+}
+
+.baseinfo-table tr td i {
+	font-weight: 600;
+	color: #f00;
+	font-style: normal;
+}
+
+.person-ion .baseinfo-btns {
+	height: 30px;
+	width: 150px;
+	position: absolute;
+	right: 0;
+	top: 2px;
+	text-align: right;
+	background: #fff;
+}
+
+.baseinfo-btns button {
+	width: 110px;
+	height: 36px;
+	background: #1875f0;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 4px;
+	font: 500 16px/36px "微软雅黑";
+}
+
+.baseinfo-btns button a {
+	display: block;
+	color: inherit;
+}
+
+.baseinfo-btns button:focus {
+	outline: none;
+	border: none;
+}
+
+
+/*企业发布箱*/
+
+.release {
+	padding: 20px;
+	min-height: 450px;
+	background: #fff;
+}
+
+.release .re-searchline {
+	height: 34px;
+}
+
+.re-searchline .status {
+	width: 160px;
+	height: 34px;
+	float: left;
+}
+
+.re-control {
+	border: solid 1px #D6D6D6;
+	height: 32px;
+	font: 500 14px/32px "微软雅黑";
+	border-radius: 4px;
+	padding: 0;
+	margin: 0;
+}
+
+.status .re-select {
+	width: 148px;
+	padding: 0 5px;
+	box-sizing: content-box;
+}
+
+.search .re-input {
+	width: 433px;
+}
+
+.re-input input {
+	width: 374px;
+	padding: 0 10px;
+	border: none;
+	background: #fff;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	float: left;
+}
+
+.re-input input::-webkit-input-placeholder {
+	color: #b9b5b6;
+}
+
+.re-input input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #b9b5b6;
+}
+
+.re-input input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #b9b5b6;
+}
+
+.re-input input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #b9b5b6;
+}
+
+.re-input input:focus {
+	outline: none;
+	border: none;
+}
+
+.re-input button {
+	float: right;
+	width: 38px;
+	border: none;
+	border-left: solid 1px #D6D6D6;
+	border-radius: 4px;
+	background: #fff;
+	cursor: pointer;
+	height: 32px;
+}
+
+.re-input button:focus {
+	outline: none;
+}
+
+.re-searchline .btns {
+	width: 215px;
+	height: 34px;
+	float: right;
+}
+
+.re-searchline .search {
+	margin-left: 170px;
+	margin-right: 225px;
+	height: 34px;
+}
+
+.btns button {
+	background: #1875f0;
+	border: none;
+	color: #fff;
+	height: 34px;
+	padding: 0 10px;
+	cursor: pointer;
+	font: 500 14px/34px "微软雅黑";
+	border-radius: 4px;
+	width: 118px;
+}
+
+.btns button a {
+	display: block;
+	color: inherit;
+}
+
+.btns button:focus {
+	border: none;
+	outline: none;
+}
+
+.btns button.float-right {
+	float: right;
+	width: 87px;
+}
+
+.re-lists {
+	padding: 25px 0 0;
+}
+
+.table.re-table>tbody>tr>td {
+	border-top: none;
+	border-bottom: dashed 1px #d8d8d8;
+	font-size: 14px;
+	color: #8c8c8c;
+	height: 40px;
+	width: 200px;
+}
+
+.re-table tr th {
+	background: #ededed;
+	color: #010101;
+	font-weight: 500;
+	height: 23px;
+	border: none;
+	padding: 0;
+}
+
+.re-table tr td .fstitle {
+	color: #000;
+	font-weight: bold;
+}
+
+.re-table button {
+	 border: solid 1px #D6D6D6;
+    background: #fff;
+    height: 34px;
+    padding: 0 13px 0 3px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.re-table button:focus {
+	outline: none;
+}
+
+.pagination-container {
+	text-align: right;
+}
+
+.enter-prise-require h4 {
+	text-indent: 2em;
+	display: inline-block;
+}
+
+.enter-prise-require p {
+	display: inline-block;
+}
+
+.baseinfo-list .see-details-content {
+	display: none;
+}
+
+.enter-prise-baseinfo .fa-chevron-up:before {
+	content: "" !important;
+}
+
+/*.enter-prise-baseinfo .fa-chevron-up:after {
+	content: "\f077" !important;
+	position: relative;
+	right: -5px;
+}*/
+
+.enter-prise-baseinfo .fa-chevron-down:before {
+	content: "" !important;
+}
+
+.enter-prise-baseinfo .fa-chevron-down:before {
+	content: "\f078";
+}
+
+/*.enter-prise-baseinfo .fa-chevron-down:after {
+	content: "\f078" !important;
+	position: relative;
+	right: -5px;
+	top: -1px;
+}*/
+.enter-prise-baseinfo .fa-chevron-up{
+	 background: url(../img/up.png) no-repeat 67px center;
+    width: 90px;
+}
+.enter-prise-baseinfo .fa-chevron-down{
+	    background: url(../img/down.png) no-repeat 67px center;
+    width: 90px;
+}
+
+.caret-basic {
+	position: absolute;
+	background: url(../img/zz_32.png) no-repeat left top;
+	width: 100px;
+	height: 37px;
+	right: 303px;
+	top: 22px;
+}
+
+.dy-content .search {
+	margin-left: 0;
+}
+
+.delivery-detaisl tbody tr td {
+	width: 200px;
+}
+
+.baseinfo-table span,
+.re-table tbody tr td span {
+	display: block;
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.done-read{
+	color:#D6D6D6!important;
+}
+.Name-tx{
+	float: left;
+    position: relative;
+}
+.Name-tx span{
+	display: inline-block;
+    max-width: 403px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.caret-basic-new {
+    position: absolute;
+    background: url(../img/zz_32.png) no-repeat left top;
+    width: 100px;
+    height: 37px;
+    right: -100px;
+    top: 0px;
+}

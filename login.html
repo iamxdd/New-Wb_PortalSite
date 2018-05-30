@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>四川智造人才网-用户登录</title>
+		<meta name="Keywords" content="四川智造人才网" />
+		<meta name="Description" content="四川智造人才网" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/common/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/layer.css"/>
+	</head>
+
+	<body>
+		<div class="login-tops">
+			<!-- img -->
+			<a href="index.html"><img src="img/logo.png" /></a>
+		</div>
+
+		<div class="loginContent">
+			<div class="login-content clearfix">
+				<form class='formlogin' id="registerForm">
+					<ul>
+						<li class="active"><span>账号登录</span></li>
+						<li><span>短信登录</span></li>
+					</ul>
+					<div class="AccountLogin panel">
+						<div class="inputcommon">
+							<input class="resetInput" type="text" placeholder="请输入账号 /手机号码" name="userName" id="userName">
+							<label id="useName_succeed" class="blank "></label>
+							<label id="useName_error" class="error"></label>
+							<label id="useName_focus" class="focus"></label>
+						</div>
+						<div class="inputcommon">
+							<input class="resetInput" type="password" placeholder="请输入密码" name="password" id="password">
+							<label id="password_succeed" class="blank "></label>
+							<label id="password_error" class="error"></label>
+							<label id="password_focus" class="focus"></label>
+						</div>
+						<label class="labelcheck clearfix">											
+								<div class="input-checkbox">	
+									<span class="sevenLogin"></span>7天自动登录								
+								</div>														
+						</label>
+						<div class="submit-btn">
+							<button type="button" class="sucLogin infoFo">登&nbsp;&nbsp;&nbsp;录</button>
+						</div>
+						<div class="other-text">
+							<a class="float-left" href="regist.html">注册</a>
+							<a class="float-right" href="forgetPassword.html">忘记密码？</a>
+						</div>
+
+					</div>
+					<div class="SmsSLogin panel" style="display: none;">
+						<div class="inputcommon">
+							<input class="resetInput" type="text" placeholder="请输入手机号码" name="phoneNumber" id="phoneNumber">
+							<label id="phone_succeed" class="blank"></label>
+							<label id="phone_error" class="error"></label>
+							<label id="phone_focus" class="focus"></label>
+						</div>
+						<div class="inputcommon clearfix">
+							<input class="VerificationCode" id="VerificationCode" type="text" placeholder="请输入验证码"><input type="button" value="短信验证码" id="getCode" class='getCode'>
+							<label id="codeerror" class="error"></label>
+							<label id="codeerror_focus" class="focus"></label>
+						</div>
+						<div class="inputcommon" style="display: none;">
+							<input class="imgCode" type="text" placeholder="图形验证码"><span class="span_Code">
+				    		<img  alt="" id="span_Code">
+				    	</span>
+							<label id="img_error" class="error"></label>
+						</div>
+						<button type="button" class="sucLogin messInfo">登&nbsp;&nbsp;&nbsp;录</button>
+						<div class="other-text">
+							<a href="regist.html">新用户注册</a>
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</div>
+
+		<div class='loginfooter'>
+			Copyright©2017四川智造人才网,All Rights Reserved 川ICP备16012918号-18 川公网安备11010802022198
+		</div>
+
+		<script type="text/javascript" src="js/common/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/common/layer.js"></script>
+		<script type="text/javascript" src="js/common/common.js"></script>
+		<script type="text/javascript" src="js/common/base64.js"></script>
+		<script type="text/javascript" src="js/common/public.js"></script>
+		<script type="text/javascript" src="js/common/url.js"></script>
+		<script type="text/javascript" src="js/common/js.cookie.js"></script>
+		<script type="text/javascript" src="js/login.js" charset="utf-8"></script>
+	</body>
+
+</html>

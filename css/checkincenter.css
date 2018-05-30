@@ -1,0 +1,89 @@
+@charset "utf-8";
+.ck-bodys {
+	padding: 22px 0;
+	background: #F7F7F7;
+}
+
+.ck-contents .ck-lefts {
+	width: 260px;
+	background: #fff;
+	min-height: 400px;
+	float: left;
+	padding: 20px;
+}
+
+.trd-position {
+	padding: 0 0 22px 0;
+}
+
+.ck-contents .ck-rights {
+	width: 830px;
+	min-height: 400px;
+	float: right;
+	background: #fff;
+	padding: 20px;
+}
+
+.ck-rights * {
+	font: 500 14px/25px "微软雅黑";
+	color: #666;
+}
+
+.ck-rights .panels .panel {
+	display: none;
+}
+
+
+/*copy from user*/
+
+.ucl-menus {
+	padding: 20px 0;
+}
+
+.ucl-menus li {
+	height: 40px;
+	font: 500 14px/40px "微软雅黑";
+}
+
+.ucl-menus li a {
+	display: block;
+	height: 40px;
+	color: #333;
+}
+
+.ucl-menus li a:hover {
+	color: #1875f0;
+}
+
+.ucl-menus li.active a {
+	font-weight: 600;
+	color: #1875f0;
+}
+
+.ucl-menus li span {
+	float: right;
+	font-weight: bold;
+	color: #000;
+}
+
+.ucl-menus li.active span {
+	color: #1875f0;
+}
+
+
+/*copy*/
+
+.ldr-parts h3 {
+	height: 24px;
+	border-bottom: solid 1px #d6d6d6;
+	padding: 17px 0;
+}
+
+.ldr-parts span {
+	display: block;
+	border-left: solid 4px #1875f0;
+	padding-left: 11px;
+	font: 600 20px/20px "微软雅黑";
+	height: 24px;
+	color: #000;
+}

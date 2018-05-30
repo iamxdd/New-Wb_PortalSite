@@ -1,0 +1,512 @@
+@charset "utf-8";
+body {
+	background: #f7f7f7;
+}
+
+.trd-part {
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 10px 20px 30px 20px;
+}
+
+.trdp-top {
+	padding-top: 20px;
+}
+
+.trd-part-left {
+	float: left;
+	overflow: hidden;
+	width: 162px;
+	height: 182px;
+	border-radius: 4px;
+	border: 1px solid #F7F7F7;
+}
+
+.trd-part-left img {
+	height: 182px;
+	width: 162px;
+	display: block;
+	cursor: pointer;
+}
+
+.cursor-default img {
+	cursor: default;
+}
+
+.trd-part-right {
+	float: right;
+	width: 645px;
+	overflow: hidden;
+	height: 182px;
+}
+
+.trd-part-new {
+	height: auto;
+}
+
+.trd-position {
+	padding: 0 0 22px 0;
+}
+
+.header-company {
+	padding: 22px 0;
+	background: #F7F7F7;
+}
+
+.trd-part-right h4 {
+	height: 50px;
+	font: 600 20px/50px "微软雅黑";
+	color: #000;
+	display: block;
+}
+
+.trd-part-right h4 .button {
+	width: 27px;
+	height: 27px;
+	float: right;
+	background: url(../img/zz_35.png);
+	border: none;
+	cursor: pointer;
+	margin-top: 11px;
+}
+
+.company-introduce p,
+.company-introduce span,
+.company-introduce-basic p,
+.company-introduce-basic span {
+	display: inline;
+}
+
+.company-introduce,
+.company-introduce-basic {
+	height: 30px;
+}
+
+.company-introduce p,
+.company-introduce-basic p {
+	font: 500 14px/30px "微软雅黑";
+	color: #8c8c8c;
+}
+
+.company-introduce-basic {
+	color: #000;
+}
+
+.company-introduce span {
+	color: #000;
+	border-right: 1px solid #ddd;
+	padding-left: 6px;
+	padding-right: 15px;
+}
+
+.company-introduce span.last {
+	border-right: none;
+}
+
+.margin-left-new {
+	margin-left: 90px;
+}
+
+.margin-left {
+	margin-left: 20px;
+}
+
+.company-introduce-content {
+	height: 50px;
+	font-family: "微软雅黑";
+	color: #8c8c8c
+}
+
+.trd-position p {
+	color: #585858;
+	font-size: 12px;
+}
+
+.trd-position a {
+	color: #8c8c8c;
+}
+
+.person-ion {
+	height: 40px;
+	position: relative;
+}
+
+.person-ion h4 {
+	position: absolute;
+	width: 105px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	background: #fff;
+	color: #000;
+	font-size: 18px;
+	border-left: 8px solid #1775F1;
+	padding-left: 10px;
+	left: 0;
+	top: 0;
+}
+
+.trdp-edit .person-ion h4 {
+	border-left: none;
+}
+
+.company-need {
+	padding: 20px 0;
+}
+
+.talent-introduce p {
+	line-height: 25px;
+	color: #505050;
+}
+
+.talent-tag span,
+.industry-tag span {
+	display: inline-block;
+	height: 28px;
+	border: solid 1px #eee;
+	padding: 0 15px;
+	font: 500 12px/28px "微软雅黑";
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	color: #999;
+}
+
+.achievemen-item p {
+	line-height: 25px;
+}
+
+.ion-line {
+	padding-top: 21px;
+	border-bottom: solid 1px #D6D6D6;
+}
+
+.company-need ul li {
+	height: 80px;
+	line-height: 80px;
+	padding-left: 13px;
+}
+
+.company-need ul li:not(:last-child) {
+	border-bottom: 1px dashed #D6D6D6;
+}
+
+.company-need ul li span {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	display: inline-block;
+	color: #8C8C8C;
+	width: 201px;
+}
+
+span.program-name {
+	font-weight: bold;
+	color: #000 !important;
+}
+
+
+/*编辑基本信息*/
+
+.pers-table tr td {
+	line-height: 46px;
+}
+
+.pers-table tr td span {
+	font-size: 18px;
+	color: #f00;
+	top: 6px;
+	position: relative;
+}
+
+.pers-table .form-control {
+	height: 32px;
+	border: solid 1px #d6d6d6;
+	border-radius: 4px;
+	background: #fff;
+	padding: 0 10px;
+	line-height: 32px;
+	width: 203px;
+}
+
+.pers-table .form-control.form-date {
+	width: 100px;
+}
+
+.pers-table .form-control.datepicker {
+	background: #fff url(../img/zz_36.png) no-repeat 210px center;
+	cursor: pointer;
+	position: relative;
+}
+
+.pers-table td.form-label {
+	width: 78px;
+	text-align: right;
+}
+
+.trdp-edit .trd-part-left,
+.trdp-edit .trd-part-right {
+	height: auto;
+}
+
+.img-upload {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.img-upload .imgUpload {
+	background: #1875f0;
+	width: 88px;
+	height: 34px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.talent-tag span.active,
+.industry-tag span.active {
+	background: #1875f0;
+	border-color: #1875f0;
+	color: #fff;
+}
+
+.per-introduce-left {
+	width: 100px;
+	float: left;
+}
+
+.per-introduce-left i {
+	color: #f00;
+	font-style: normal;
+	font-size: 18px;
+	top: 6px;
+	position: relative;
+	padding: 0 3px;
+}
+
+.per-introduce-right {
+	width: 720px;
+	float: right;
+	height: 150px;
+}
+
+.per-introduce-right textarea {
+	border: solid 1px #d6d6d6;
+	border-radius: 4px;
+	background: #fff;
+	padding: 10px;
+	line-height: 32px;
+	height: 128px;
+	display: block;
+	width: 698px;
+}
+
+.trdp-edit .person-ion .ion-line {
+	display: none;
+}
+
+.trdp-edit .person-ion {
+	border-bottom: solid 1px #D6D6D6;
+	padding-bottom: 10px;
+}
+
+.pers-table .long-control {
+	width: 525px;
+}
+
+.pers-table .textarea {
+	border: solid 1px #d6d6d6;
+	border-radius: 4px;
+	background: #fff;
+	padding: 10px;
+	line-height: 32px;
+	height: 120px;
+	display: block;
+	width: 525px;
+	margin-top: 10px;
+}
+
+.pers-table .form-label-cell {
+	width: 106px;
+	float: left;
+}
+
+.pers-table .btn-delete {
+	width: 62px;
+	height: 32px;
+	background: #ff0000;
+	color: #fff;
+	border: solid 1px #D6D6D6;
+	cursor: pointer;
+	border-radius: 2px;
+	float: right;
+	margin: 8px 0;
+	line-height: 32px;
+}
+
+.pers-table .sex-label {
+	padding: 0 30px 0 0;
+}
+
+.pers-table .btn-delete:focus {
+	border: solid 1px #D6D6D6;
+	outline: none;
+}
+
+.talent-workexperience .workexperience-item {
+	padding-bottom: 30px;
+}
+
+.person-ion .btn-add {
+	background: #fff url(../img/zz_33.png) no-repeat left center;
+	height: 28px;
+	cursor: pointer;
+	width: 37px;
+	border: none;
+	padding-left: 38px;
+	color: #000;
+	float: right;
+	font-size: 14px;
+	line-height: 28px;
+	margin-top: 6px;
+}
+
+.achievemen-item span {
+	display: inline-block;
+	height: 32px;
+	border: solid 1px #1875f0;
+	padding: 0 15px;
+	font: 500 14px/32px "微软雅黑";
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	cursor: default;
+	color: #1875f0;
+	border-radius: 4px;
+	position: relative;
+}
+
+.achievemen-item {
+	padding-top: 20px;
+}
+
+.achievemen-item span i {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: -10px;
+	right: -10px;
+	background: url(../img/zz_34.png);
+	cursor: pointer;
+}
+
+.btns .btn-cancel,
+.btns .btn-submit {
+	width: 98px;
+	height: 38px;
+	border: solid 1px #1875f0;
+	background: #1875f0;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.btns {
+	border-top: solid 1px #D6D6D6;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.btns .btn-cancel {
+	border-color: #D6D6D6;
+	color: #000;
+	background: #fff;
+}
+
+.want-jobs p {
+	height: 30px;
+	font: 500 14px/30px "微软雅黑";
+	margin-bottom: 10px;
+	color: #505050;
+}
+
+.want-jobs p span {
+	display: inline-block;
+	height: 28px;
+	border: solid 1px #eee;
+	padding: 0 15px;
+	font: 500 12px/28px "微软雅黑";
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.want-jobs p b {
+	font-weight: 500;
+	width: 33%;
+	height: 30px;
+	float: left;
+}
+
+.pers-table tr td .wanner-tags {
+	width: 700px;
+	overflow: hidden;
+	float: left;
+}
+
+.pers-table tr td .wanner-tags span {
+	display: inline-block;
+	height: 28px;
+	border: solid 1px #eee;
+	padding: 0 15px;
+	font: 500 12px/28px "微软雅黑";
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	color: #999;
+	color: #333;
+}
+
+.pers-table tr td .wanner-tags span.active {
+	background: #1875f0;
+	border-color: #1875f0;
+	color: #fff;
+}
+
+.add-panels {
+	padding: 20px 0;
+	display: none;
+}
+
+.add-panels input {
+	height: 32px;
+	border: solid 1px #1875f0;
+	padding: 0 5px;
+	font: 500 14px/32px "微软雅黑";
+}
+
+.add-panels button {
+	height: 32px;
+	border: none;
+	padding: 0 10px;
+	font: 500 14px/32px "微软雅黑";
+	border-radius: 3px;
+	background: #fff;
+	border: solid 1px #D6D6D6;
+}
+
+.add-panels button.success {
+	background: #1875f0;
+	color: #fff;
+	border-color: #1875f0;
+}
+
+.personal-tags .add-panels {
+	padding-top: 0;
+}
+
+.ExpectedWorkingPlaceCode .form-auto {
+	width: 150px;
+}

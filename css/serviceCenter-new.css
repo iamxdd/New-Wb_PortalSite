@@ -1,0 +1,178 @@
+@charset "utf-8";
+.ck-bodys {
+	padding: 22px 0;
+	background: #F7F7F7;
+}
+
+.deitais-serviece {
+	display: none;
+}
+
+.ck-contents .ck-lefts {
+	width: 300px;
+	background: #fff;
+	min-height: 400px;
+	float: left;
+}
+
+.trd-position {
+	padding: 0 0 22px 0;
+}
+
+.new-pagination {
+	text-align: center;
+}
+
+.ck-contents .ck-rights {
+	width: 830px;
+	min-height: 400px;
+	float: right;
+	background: #fff;
+	padding: 20px;
+}
+
+.ck-rights * {
+	font: 500 14px/25px "微软雅黑";
+	color: #666;
+}
+
+.ck-rights .panels .pane2,
+.ck-rights .panels .pane3,
+.ck-rights .panels .pane4 {
+	display: none;
+}
+
+.ck-rights .panels .pane1 ul li {
+	height: 40px;
+	font: 500 12px/40px "微软雅黑";
+	border-bottom: 1px solid #e4e4e4;
+	color: #0088CC;
+	cursor: pointer;
+}
+
+.ck-rights .panels .pane1 ul li span {
+	color: #0088CC;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.deitais-serviece h4 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 36px;
+	margin: 0 auto;
+	padding-top: 8px;
+	width: 100%;
+	color: #222;
+	text-align: center;
+}
+
+.deitais-serviece .leader-infomation-tags {
+	color: #666;
+	padding-top: 12px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.leader-infomation-tags .float-left {
+	float: left;
+	margin-right: 10px;
+}
+
+.leader-infomation-tags .source {
+	float: right;
+	display: block;
+	width: 165px;
+	line-height: 24px;
+}
+
+.info-content {
+	padding-top: 20px;
+	font-size: 16px;
+	min-height: 400px;
+	line-height: 30px;
+	text-indent: 2em;
+	color: #666;
+}
+
+
+/*copy from user*/
+
+.ucl-menus {}
+
+.ucl-menus li {
+	height: 70px;
+	font: 500 16px/70px "微软雅黑";
+	text-align: center;
+	color: #000;
+}
+
+.ucl-menus li a {
+	display: block;
+	height: 70px;
+	color: #333;
+	width: 200px;
+	margin: 0 auto;
+	border-bottom: solid 1px #D6D6D6;
+}
+
+.ucl-menus li a:hover {
+	color: #1875f0;
+}
+
+.ucl-menus li.active a {
+	font-weight: 600;
+	color: #fff;
+	width: 300px;
+	background: #1875f0;
+}
+
+.ucl-menus li span {
+	float: right;
+	font-weight: bold;
+	color: #000;
+}
+
+.ucl-menus li.active span {
+	color: #1875f0;
+}
+
+
+/*copy*/
+
+.ldr-parts h3 {
+	height: 32px;
+	padding: 10px 0 18px 0;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.ldr-parts span {
+	display: block;
+	border-left: solid 4px #1875f0;
+	padding-left: 11px;
+	font: 600 18px/32px "微软雅黑";
+	height: 32px;
+	color: #000;
+}
+
+.jiathis_style_24x24 .jtico.jtico_weixin {
+	background: url(../img/weixin.png) no-repeat left!important;
+}
+
+.jiathis_style_24x24 .jtico.jtico_cqq {
+	background: url(../img/qq.png) no-repeat left!important;
+}
+
+.jiathis_style_24x24 .jtico.jtico_qzone {
+	background: url(../img/qzone.png) no-repeat left!important;
+}
+
+.jiathis_style_24x24 .jtico.jtico_tsina {
+	background: url(../img/sina.png) no-repeat left!important;
+}

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <script type="text/javascript" src="/js/common/jquery.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>四川智造人才网-大数据</title>
+	<meta charset="utf-8" />
+    <style>
+     iframe{
+         height:100%
+     }
+    </style>
+</head>
+<body>
+    <div class="bigData">
+        <iframe id='iframe' src="" frameborder="no" border="0" marginwidth="0" marginheight="0"  width="100%"  scrolling="no" allowtransparency="yes"></iframe>
+    </div>
+    
+</body>
+</html>
+<script>
+    $(function () {
+        var winWidth = window.innerWidth;
+        var winHeight = window.innerHeight;
+        $(".bigData").css("height", winHeight);
+        var _iframe = $('#iframe');
+        var _datatype =Number(window.localStorage.getItem('datatype'));
+        if(_datatype==0){
+            _iframe.attr('src',"https://datav.aliyun.com/share/7746f165136bd21e20a3fe86ca65c16a");
+        }else if(_datatype==1){
+             _iframe.attr('src',"https://datav.aliyun.com/share/caa2882d95dfa1d68e80ba219e933731");
+        }
+    });
+
+</script>
+

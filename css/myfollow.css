@@ -1,0 +1,86 @@
+@charset "utf-8";
+body {
+	background: #F7F7F7;
+}
+
+.iframeContent {
+	padding: 20px;
+	background: #fff;
+}
+
+.myFavorite-list {
+	background: #fff;
+}
+
+.myfollow-list {
+	padding: 0 0 0 30px;
+}
+
+.myfollow-list ul {
+	padding-bottom: 20px;
+}
+
+.myfollow-list ul li {
+	width: 250px;
+	margin-right: 30px;
+	display: inline;
+	float: left;
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.myfollow-list ul li a {
+	color: #8C8C8C;
+}
+
+.myfollow-list ul li a img {
+	display: block;
+	max-width: 250px;
+	max-height: 142px;
+	margin: 0 auto;
+	background:url(../img/zz_41.png) no-repeat center center;
+}
+
+*html .myfollow-list ul li a img,
+*+html .myfollow-list ul li a img {
+	width: 250px;
+	height: 142px;
+}
+
+.myfollow-list ul li a h3 {
+	height: 38px;
+	font: 600 16px/38px "微软雅黑";
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-indent: 20px;
+}
+
+.myfollow-list ul li a p {
+	height: 14px;
+	font: 500 12px/15px "微软雅黑";
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-indent: 20px;
+}
+
+.myfollow-list ul li a p .fl-right {
+	float: right;
+	padding-right: 30px;
+}
+.myfollow-list img{
+	width: auto;
+    height: 120px;
+}
+.myfollow-list .imgwidth{
+	height:120px;
+	background: #fafafa;
+	padding: 10px 0;
+	border:1px solid #f3f3f3;
+	border-radius:  2px;
+}
+.myfollow-list .imgwidth:hover{
+	border:1px solid #f3f3f3;
+}

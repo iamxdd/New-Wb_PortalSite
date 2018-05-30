@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>四川智造人才网-基本信息</title>
+		<meta name="Keywords" content="四川智造人才网" />
+		<meta name="Description" content="四川智造人才网" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/common/site.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/layer.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/baseinfo.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/datepicker.css" />
+	</head>
+
+	<body>
+		<div class="sp-lefts">
+			<form id="mainEditInfo">
+				<input type="hidden" name="Id" value="" />
+				<div class="trd-part trdp-top trdp-edit clearfix">
+					<div class="trd-part-left">
+						<img id="AvatarUrl" title="点击上传头像" class="imgSrc" src="../img/zz_39.png" alt="更换头像">
+						<!--<form id="uploadForm" enctype="multipart/form-data">-->
+						<div class="img-upload">
+							<button title="点击上传头像" type="button" class="imgUpload" id="img-upLoad">上传图片</button>
+							<input id="fileUpload" type="file" style="display: none;" />
+						</div>
+						<!--</form>-->
+					</div>
+					<div class="trd-part-right">
+						<table class="table pers-table">
+							<tr>
+								<td class="form-label"><span>*</span>姓名</td>
+								<td>
+									<input class="form-control" type="text" name="RealName" required="required" />
+								</td>
+								<td class="form-label"><span>*</span>性别</td>
+								<td>
+									<label class="sex-label">
+										<input type="radio" checked="checked" name="Gender" value="1" /> 男</label>
+									<label class="sex-label">
+										<input type="radio" name="Gender" value="2" /> 女</label>
+								</td>
+							</tr>
+							<tr>
+								<td class="form-label">昵称</td>
+								<td>
+									<input class="form-control" type="text" name="NickName" id="" />
+								</td>
+								<td class="form-label"><span>*</span>在职状态</td>
+								<td>
+									<select class="form-control" name="StaffState" required="required">
+										<option value="0">请选择</option>
+										<option value="1">在职</option>
+										<option value="2">准备换工作</option>
+										<option value="3">离职</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="form-label"><span>*</span>出生日期</td>
+								<td>
+									<input class="datepicker form-control" data-font-awesome="true" required="required" name="Birthday" type="text" id="birthDate">
+								</td>
+								<td class="form-label"><span>*</span>政治面貌</td>
+								<td>
+									<select class="form-control" name="PoliticsState" id="editOrgan" required="required">
+										<option value="0">请选择</option>
+										<option value="13">群众</option>
+										<option value="3">团员</option>
+										<option value="2">预备党员</option>
+										<option value="1">党员</option>
+										<!--<option value="13">其他</option>-->
+										<option value="4"> 中国国民党革命委员会</option>
+										<option value="5">中国民主同盟</option>
+										<option value="6">中国民主建国会</option>
+										<option value="7">中国民主促进会</option>
+										<option value="8">中国农工民主党</option>
+										<option value="9"> 中国致公党</option>
+										<option value="10">九三学社</option>
+										<option value="11">台盟</option>
+										<option value="12">其他党派</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="form-label"><span>*</span>联系电话</td>
+								<td>
+									<input class="form-control" type="text" name="Phone" required="required" id="" />
+								</td>
+								<td class="form-label"><span>*</span>邮箱</td>
+								<td>
+									<input class="form-control" required="required" type="text" name="Email" id="" />
+								</td>
+							</tr>
+							<tr>
+								<td class="form-label"><span>*</span>毕业院校</td>
+								<td>
+									<input class="form-control" type="text" name="GraduatedFrom" required="required" id="" />
+								</td>
+								<td class="form-label"><span>*</span>所学专业</td>
+								<td>
+									<input class="form-control" required="required" type="text" name="Profession" id="" />
+								</td>
+							</tr>
+							<tr>
+								<td class="form-label">现居地址</td>
+								<td colspan="3">
+									<input class="form-control long-control" type="text" name="Address" id="" />
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<!--个人标签-->
+				<div class="trd-part trdp-edit trd-part-new clearfix personal-tags">
+					<div class="person-ion">
+						<!--<span title="增加工作经历" class="btn btn-add btn-add-tags" id="addTags">增加</span>-->
+						<h4>个人标签</h4>
+						<div class="ion-line"></div>
+					</div>
+					<div class="company-need">
+						<div class="talent-tag clearfix" id="personalTags">
+							<p>暂无标签!</p>
+							<!--<span class="active">高级设计</span>
+							<span>项目管理者</span>-->
+						</div>
+					</div>
+
+					<div class="add-panels">
+						<input type="text" />
+						<button class="success" id="addMyTags" type="button">确定</button>
+						<button class="btn-cancel" type="button">取消</button>
+					</div>
+				</div>
+
+				<!--所属行业-->
+				<div class="trd-part trdp-edit trd-part-new clearfix personal-tags">
+					<div class="person-ion">
+						<!--<span title="增加工作经历" class="btn btn-add btn-add-tags" id="addTags">增加</span>-->
+						<h4>所属行业</h4>
+						<div class="ion-line"></div>
+					</div>
+					<div class="company-need">
+						<div class="industry-tag clearfix" id="myIndustry">
+							<p>暂无行业!</p>
+						</div>
+					</div>
+				</div>
+				<!--个人简介-->
+				<div class="trd-part trdp-edit trd-part-new clearfix">
+					<div class="person-ion">
+						<h4>个人简介</h4>
+						<div class="ion-line"></div>
+					</div>
+					<div class="company-need">
+						<div class="talent-tag talent-introduce clearfix">
+							<div class="per-introduce-left">
+								<i>*</i>个人简介
+							</div>
+
+							<div class="per-introduce-right">
+								<textarea name="Description" required="required"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--工作经历-->
+				<div class="trd-part trdp-edit trd-part-new clearfix">
+					<div class="person-ion">
+						<span title="增加工作经历" class="btn btn-add btn-add-experience">增加</span>
+						<h4>工作经历</h4>
+						<div class="ion-line"></div>
+					</div>
+					<div class="company-need">
+						<div class="talent-workexperience talent-introduce person-experience" id="WorkExperiences">
+							<div class="workexperience-item">
+								<input type="hidden" name="" id="" value="" />
+								<table class="table  pers-table">
+									<tr>
+										<td colspan="2">
+											<div class="form-label-cell">
+												<span>*</span>公司名称
+											</div>
+											<input type="text" class="form-control long-control" name="CompanyName1" id="" value="" required="required" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-label-cell">
+												<span>*</span>工作职位
+											</div>
+											<input type="text" class="form-control" name="" id="" value="" required="required" />
+										</td>
+										<td>
+											<div class="form-label-cell">
+												<span>*</span>工作时间 </div>
+											<input type="text" class="form-control form-date" name="" id="" value="" required="required"> -
+											<input type="text" class="form-control form-date" name="" id="" value="" required="required"> </td>
+									</tr>
+
+									<tr>
+										<td colspan="2">
+											<div class="form-label-cell">
+												<span>*</span>工作描述
+											</div>
+											<textarea name="" class="form-control long-control textarea" required="required" maxlength="500"></textarea>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--期望工作-->
+				<div class="trd-part trdp-edit trd-part-new clearfix">
+					<div class="person-ion">
+						<h4>期望工作</h4>
+						<div class="ion-line"></div>
+					</div>
+					<div class="wanner-jobs">
+						<table class="table  pers-table">
+							<tbody>
+								<tr>
+									<td colspan="2">
+										<div class="form-label-cell">
+											<span>*</span>期望行业
+										</div>
+										<div class="wanner-tags" id="exceptndustry">
+											<p>暂无数据</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<div class="form-label-cell">
+											<span>*</span>工作地点
+										</div>
+										<div class="ExpectedWorkingPlaceCode" id="ExpectedWorkingPlaceCode">
+											<select id="Province" name="" class="form-control form-auto">
+												<option selected="selected" value="0">请选择</option>
+											</select>
+											<select id="City" class="form-control  form-auto" required="required">
+												<option selected="selected" value="0">请选择</option>
+											</select>
+										</div>
+
+										<!--<input type="text" name="" id="" value="">-->
+									</td>
+
+								</tr>
+								<tr>
+									<td width="50%">
+										<div class="form-label-cell">
+											<span>*</span>期望企业
+										</div>
+										<select id="EnterpriseNature" name="" class="form-control">
+
+											<option selected="selected" value="0">国有企业</option>
+											<option value="1">集体企业</option>
+											<option value="2">联营企业</option>
+											<option value="3">中外合作企业</option>
+											<option value="4">中外合资企业</option>
+											<option value="5">外商独资企业</option>
+											<option value="6">私营企业</option>
+										</select>
+									</td>
+									<td>
+										<div class="form-label-cell">
+											<span>*</span>工作性质
+										</div>
+										<div class="ExpectedWorkingPlaceCode" id="ExpectedWorkingNature">
+											<select id="WorkingNature" class="form-control  form-auto" required="required">
+												<option selected="selected" value="0">全职</option>
+												<option value="1">兼职</option>
+												<option value="2">实习</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!--获得成就-->
+				<div class="trd-part trdp-edit trd-part-new clearfix">
+					<div class="person-ion">
+						<span title="增加成就" class="btn btn-add btn-add-sucess">增加</span>
+						<h4>获得成就</h4>
+						<div class="ion-line"></div>
+					</div>
+					<div class="company-need achievemen-content">
+						<div class="achievemen-item clearfix" id="achievemenDivs">
+							<!--<span><i></i>先进个人</span>-->
+							<p>暂无数据</p>
+						</div>
+
+						<div class="add-panels">
+							<input id="addAchievmenValue" type="text" />
+							<button class="success" id="addAchievmenBtn" type="button">确定</button>
+							<button class="btn-cancel" type="button">取消</button>
+						</div>
+					</div>
+
+					<div class="btns">
+						<button class="btn-cancel" type="button" id="cancelInfo">取消</button>
+						<button class="btn-submit" type="button" id="submitInfo">确定</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<script type="text/javascript" src="../js/common/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="../js/common/common.js"></script>
+		<script type="text/javascript" src="../js/common/public.js"></script>
+		<script type="text/javascript" src="../js/common/layer.js"></script>
+		<script type="text/javascript" src="../js/common/url.js"></script>
+		<script type="text/javascript" src="../js/common/bootstrap-datepicker.js"></script>
+		<script type="text/javascript" src="../js/common/bootstrap-datetimepicker.zh-CN.js"></script>
+		<script type="text/javascript" src="../js/common/fom.js"></script>
+		<script type="text/javascript" src="../js/editInfo.js"></script>
+	</body>
+
+</html>

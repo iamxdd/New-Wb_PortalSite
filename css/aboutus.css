@@ -1,0 +1,36 @@
+@charset "utf-8";
+.ab-banners {
+	background: url(../img/zz_23.png) no-repeat top center;
+	height: 332px;
+}
+
+.ab-bodys {
+	padding: 33px 0;
+}
+
+.ab-posiiton {
+	padding-top: 0;
+	padding-bottom: 30px;
+}
+
+.ab-contents {
+	padding: 30px 0;
+}
+
+.ab-contents p {
+	font: 500 14px/30px "微软雅黑";
+	color: #333;
+}
+
+.ab-contents p img {
+	vertical-align: middle;
+}
+
+.ab-introduceContent {
+	border-bottom: dashed 1px #D6D6D6;
+	padding-bottom: 37px;
+}
+
+.ab-banner-bot {
+	padding: 37px 0;
+}
